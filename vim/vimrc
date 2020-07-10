@@ -15,13 +15,14 @@ Plug 'sheerun/rspec.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'posva/vim-vue'
 Plug 'digitaltoad/vim-pug'
 Plug 'elixir-lang/vim-elixir'
 Plug 'thinca/vim-ref'
 Plug 'awetzel/elixir.nvim', { 'do': 'yes \| ./install.sh' }
 Plug 'slim-template/vim-slim'
+Plug 'nelsyeung/twig.vim'
 
 Plug 'neomake/neomake'
 Plug 'janko-m/vim-test'
@@ -206,3 +207,6 @@ inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 syntax enable
 set t_Co=256
 colorscheme onehalfdark
+
+nnoremap <F3> :set hlsearch!<CR>
+set textwidth=80
